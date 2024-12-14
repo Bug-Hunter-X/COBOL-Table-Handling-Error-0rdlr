@@ -1,0 +1,3 @@
+This repository demonstrates a subtle bug related to table handling in COBOL. The bug lies in the way the table is populated and accessed, leading to potential data corruption or unexpected results.
+
+The `bug.cob` file contains the erroneous code that exhibits this uncommon error. The `bugSolution.cob` file offers a corrected version of the code demonstrating how to properly handle COBOL tables.  The bug showcases an easy-to-miss error when using indexed tables with string manipulation within loops.  Care must be taken to ensure that index referencing correctly interacts with string operations.
